@@ -1,0 +1,28 @@
+After looking at the plot of train and test data it looks like a sine curve.
+I did 7000 iterations for gradient descent algorithm.
+After doing gradient taking curves of degree 1 to 9 squared error on each test and training were found as below.
+sq error test 1 =0.09556384015611026   
+sq error training 1 =0.09967909712461073
+sq error test 2 =0.09553630856582457
+sq error training 2 =0.10001576348356996   
+sq error test 3 =0.08522410028649852   
+sq error training 3 =0.08655929376007668
+sq error test 4 =0.06919643945617769   
+sq error training 4 =0.06810422428400882
+ans so on ....
+also the graph shows it is decreasing.
+both training and test data error decreases with increase in degree because sine curve will fit better on hogher degree polynomial.
+Also initially test error was less than train error but with increase in degree test error becomes more than training error maybe because of overfitting.
+
+Thus suitable n will be n=9
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+
+I would prefer lasso regularization because as I got from data lasso regularization for n=9 and lambda=.25 was having minimum error.
+also the reason might be here we do not need regularization much because it is sine curve and so there wont be more overfitting.
+
+
+
+
+
